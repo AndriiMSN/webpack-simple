@@ -7,6 +7,7 @@ footer .footer_wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer ul {
@@ -78,5 +79,34 @@ footer .footer_wrapper .contacts ul li::before {
 }
 
 footer .footer_wrapper .contacts ul li.adress::before {
-  /* content: url(/images/maps-and-flags\ 1.png); */
+  content: url(/src/images/maps-and-flags\ 1.png);
 }
+/* 
+@media screen and (max-width: 1260px) {
+  footer .footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .footer_wrapper .footer-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer .footer_wrapper .footer_links {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  footer .footer_wrapper .contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  footer .footer_wrapper .contacts ul li,
+  footer .footer_wrapper .footer_links ul li {
+    font-size: 16px;
+  }
+} */

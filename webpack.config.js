@@ -18,8 +18,8 @@ plugins = [
   new webpack.HotModuleReplacementPlugin(),
   new ReactRefreshWebpackPlugin(), // LAST ONLY
 ];
-console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === "production") {
+
+if (process.env.NODE_ENV === "production ") {
   mode = "production";
   target = "browserslist";
   devtool = "hidden-nosources-source-map";
